@@ -107,8 +107,6 @@ func TestNextToken(t *testing.T) {
 		{token.SEMICOLON, ";"},
 		{token.EOF, ""},
 	}
-	// 10 == 10;
-	// 10 != 9;
 
 	l := New(input)
 
